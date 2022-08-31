@@ -1,0 +1,111 @@
+
+*
+{
+     margin:0;
+     padding:0;
+     box-sizing:border-box ;
+}
+.carousel-item img{
+    width: 100%;
+    height: 93vh;
+    object-fit: cover; 
+}
+
+
+.about{
+	width:100%;
+	height:280px;
+	
+}
+
+.about_img{
+	min-width: 100%;
+	max-height: 280px;
+	
+	
+}
+.services .row>*{
+	padding-right:0; 
+    padding-left:0; 
+}
+
+.footer img{
+  height: 50px;
+  width: 50px;
+}
+
+
+
+/*contact css end */
+.heading-color{
+    background-color:#08746e; 
+    /* background-color: #00B76A; */
+    
+}
+
+
+
+/*login and register form css*/
+.login-container,.signup-container{
+    min-height: 100vh;
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+.buttons{
+background-color: #0a8882; 
+border: none;
+padding: 8px 16px;
+border-radius: 8px;
+font-weight: 500;
+color: white;
+transition: 1s;
+}
+
+.buttons:hover{
+    cursor: pointer;
+    background-color:#033f3c;
+}
+
+.rest-img{
+  width: 100%;
+  height: 50vh;
+  object-fit: cover;
+  transition: transform .3s ease-in-out; 
+}
+.rest-img:hover{
+  transform: scale(1.05);
+  
+
+}
+
+
+@media screen and (max-width: 900px){
+  section.main_heading > .container >.row>.col-md-6 >.cards{
+    margin-bottom: 20px;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  section.main_heading > .container >.row>.col-md-6 >.cards > .col-sm-4 > img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
